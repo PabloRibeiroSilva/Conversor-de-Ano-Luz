@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+	height: 100vh;
+	text-align: center;
+	background-color: aqua;
+	background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+	background-size: cover;
+	color: white;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.container {
+	height: 300px;
+	padding-top: calc(50vh - 150px);
+}
+
+.page-logo {
+	width: 35vw;
+	max-width: 170px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.alura-logo {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+input {
+	font-size: 20px;
+	font-family: "Ubuntu", sans-serif;
+	width: 90px;
+	border: none;
+	background: transparent;
+	border-bottom: solid 2px white;
+	color: white;
+	outline-style: none;
+}
+
+select {
+	font-size: 19px;
+	font-family: "Ubuntu", sans-serif;
+	outline: none;
+	border: none;
+	color: white;
+	background: #070d2d;
+}
+
+#valorConvertido {
+	margin: auto;
+	margin-top: 20px;
+	background-color: #00000077;
+	padding: 10px;
+	width: 260px;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+/*Imersaodev*/
+/*Alura*/
